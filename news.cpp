@@ -25,7 +25,7 @@ News::News(QObject *parent) :
     QSettings settings("WunderWungiel", "Wunderland");
     openInBrowser = settings.value("news/openInBrowser", false).toBool();
 
-    url = "http://ovi.wunderwungiel.pl/feed.xml";
+    url = "https://rss.app/feeds/rSFAJTocIZpEsP9l.xml";
     htmlContent = "";
 }
 
